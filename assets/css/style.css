@@ -9,6 +9,8 @@ body{
     height: 60px;
     background: #fff;
     color: #000000;
+    font-family: 'Poppins';
+    font-weight: 500;
     z-index: 5;
 }
 .logo_img{
@@ -22,6 +24,8 @@ body{
     list-style: none;
     margin-top: 12px;
     text-align: left;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 .navbar_ul li{
     width: auto;
@@ -57,6 +61,8 @@ height: 30px;
     cursor: pointer;
     font-family: 'Poppins',arial, 'Times New Roman', Times, serif;
     font-size: 0.9em;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 .add_navbar:hover{
     background: #ff4605;
@@ -239,6 +245,7 @@ height: 30px;
     background: #ffffff;
     color: #000000;
     font-family: 'Poppins';
+    font-weight: 500;
   }
   .foot-txt{
     font-family: 'Poppins';
@@ -250,11 +257,16 @@ height: 30px;
   .footer-ul li{
     display: block;
     line-height: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;      
   }
   .footer-ul li a{
     text-decoration: none;
     color: #000000;
     border-bottom: 1px solid #f1f1f1;
+}
+.footer-ul li a:hover{
+    color: #ff4605;
 }
 .padding-bottom-2{
     padding-bottom: 2%;
@@ -283,6 +295,8 @@ height: 30px;
 .search_form{
     width: 100%;
     height: auto;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 .search_form select,.search_form input[type="text"]{
  width: 95%;
@@ -296,6 +310,8 @@ height: 30px;
  font-family: 'Poppins',arial, 'Times New Roman', Times, serif;
  font-size: 0.9em;
  margin-top: 10px;   
+-webkit-appearance:none;
+    appearance:none;
 }
 .search_form input[type="submit"]{
    width: 100%;
@@ -343,8 +359,10 @@ height: 30px;
     height: auto;
     padding-left: 5%;
     padding-right: 5%;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
-.contact-form input, textarea{
+.contact-form input,.contact-form textarea{
     width: 100%;
     height:  40px;
     border:1px solid #e1e1e1;
@@ -373,10 +391,136 @@ height: 30px;
 .contact-form input[type='submit']:hover{
     background: #ff4605;
 }
+
 .font-weight-normal{
     font-weight: normal;
 }
 .pad-top-0{
     padding: 0;
+}
+.signin_form{
+    width: 35%;
+    height: auto;
+    margin: auto;
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 3%;
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+}
+.signin_form h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+}
+.inp-ele{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    background: #f9f9f9;
+    color: #000;
+    font-family: 'Poppins';
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 3%;
+    font-weight: 500;
+}
+.inp-ele:focus{
+    background: #fff;
+    color: #000;
+}
+.sub-ele{
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background: #ff4605;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.sub-ele:hover{
+    opacity: 0.8;
+}
+#display_signin{
+    width: 100%;
+    position: absolute;
+    margin-left: 64%;
+}
+.display_signin{
+    width: 25%;
+    background: #fff;
+    padding: 3%;
+    border-radius: 10px;
+}
+.display_signin input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+.display_signin input[type='submit']{
+    background: #ff4605;
+    color: #fff;
+}
+#display_signin {
+    display: none;
+}
+.client-layer{
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.txt-left{
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+.client-form{
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.client-form input,.client-form select, textarea{
+    width: 95%;
+    height:  40px;
+    border:1px solid #e1e1e1;
+    outline: none;
+    background: #f1f1f1;
+    font-family: 'Poppins';
+    margin-top: 10px;
+    padding-left: 2%;
+    -webkit-appearance:none;
+    appearance:none;
+}
+.client-form textarea{
+    height: 200px;
+}
+.client-form input:focus,.client-form textarea:focus{
+    background: #fff;
+}
+.client-form input[type='submit']{
+    width: 15%;
+    background: #3b4876;
+    color: #fff;
+    border: none;
+    float: right;
+    margin-right: 10px;
+    padding: 0;
+    cursor: pointer;
+}
+.client-form input[type='submit']:hover{
+    background: #ff4605;
+}
+.margin-top-10-px{
+    margin-top: 20px;
 }
 /* end */
